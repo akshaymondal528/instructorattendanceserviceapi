@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "prefer-const": [
+      "error",
+      {
+        "destructuring": "all",
+        "ignoreReadBeforeAssign": false
+      }
+    ]
+  },
+  "extends": ["eslint:recommended"]
+}

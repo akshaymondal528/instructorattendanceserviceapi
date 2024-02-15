@@ -1,0 +1,30 @@
+{
+  "name": "instructorattendanceservice",
+  "version": "1.0.0",
+  "description": "Instructor attendance service API",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .js",
+    "start": "node index.js",
+    "start:dev": "NODE_ENV=dev nodemon index.js",
+    "start:production": "NODE_ENV=production nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Akshay",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^9.0.2",
+    "moment-timezone": "^0.5.44",
+    "mongoose": "^8.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "nodemon": "^3.0.3"
+  }
+}
