@@ -113,8 +113,6 @@
 
 - Added Institution holiday list (custom/configurable) - Let's say a tutor requests a two-week absence. During that time, there may be public holidays that shouldn't be taken into account for leave requests.
 
-**Postman collection link** - [https://api.postman.com/collections/12493214-21a12667-d528-4d15-a676-b0210348d535?access_key=PMAT-01HPQ22A89NTSVMNK76FRYPMPK]()
-
 **Deployement:**
 
 - Follow the _Installation process_ above
